@@ -97,19 +97,7 @@ pins:
 
   - id: D4
     class: outputs
-    ts_name: D4 Going low (boost)  
-
-  - id: E15
-    class: outputs
-    ts_name: E15 Stepper Enable
-
-  - id: E13
-    class: outputs
-    ts_name: E13 Stepper Direction
-
-  - id: B15
-    class: outputs
-    ts_name: B15 Stepper Step      
+    ts_name: D4 Going low (boost)    
     
   - id: EFI_ADC_0
     class: analog_inputs
