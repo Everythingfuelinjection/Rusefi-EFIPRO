@@ -10,7 +10,6 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::A8: return "A8 Ignition 3";
 		case Gpio::B13: return "B13 Ignition 1";
 		case Gpio::B14: return "B14 Injector 6";
-		case Gpio::B15: return "B15 Stepper Step";
 		case Gpio::B7: return "Launch Control input (B7)";
 		case Gpio::B9: return "B9 Injector 3";
 		case Gpio::C13: return "C13 Injector 8";
@@ -29,9 +28,7 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::D9: return "D9 Injector 5";
 		case Gpio::E10: return "E10 Tach Output";
 		case Gpio::E12: return "Flex fuel input (E12)";
-		case Gpio::E13: return "E13 Stepper Direction";
 		case Gpio::E14: return "E14 Injector 7";
-		case Gpio::E15: return "E15 Stepper Enable";
 		case Gpio::E3: return "E3 Injector 4";
 		case Gpio::E4: return "E4 Ignition 4";
 		case Gpio::E5: return "E5 Injector 2";

@@ -29,9 +29,6 @@ Gpio GENERATED_OUTPUTS[] = {
 	Gpio::C8, // C8 Going low (Idle 2)
 	Gpio::D6, // D6 Going low (Idle 1)
 	Gpio::D4, // D4 Going low (boost)
-	Gpio::E15, // E15 Stepper Enable
-	Gpio::E13, // E13 Stepper Direction
-	Gpio::B15, // B15 Stepper Step
 // "E6 Injector 1",
 // "E5 Injector 2",
 // "B9 Injector 3",
@@ -57,7 +54,4 @@ Gpio GENERATED_OUTPUTS[] = {
 // "C8 Going low (Idle 2)",
 // "D6 Going low (Idle 1)",
 // "D4 Going low (boost)",
-// "E15 Stepper Enable",
-// "E13 Stepper Direction",
-// "B15 Stepper Step",
 }
