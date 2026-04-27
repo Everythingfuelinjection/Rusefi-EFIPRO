@@ -163,6 +163,10 @@ pins:
   - id: EFI_ADC_15
     class: analog_inputs
     ts_name: TPS (PC5)
+    
+  - id: [C7, C7]
+    class: [switch_inputs, event_inputs]
+    ts_name: VSS HALL input (PC7)  
 
   - id: [C6, C6]
     class: [switch_inputs, event_inputs]
@@ -179,8 +183,4 @@ pins:
   - id: [B7, B7]
     class: [switch_inputs, event_inputs]
     ts_name: Launch Control input (PB7)  
-
-  - id: [C7, C7]
-    class: [switch_inputs, event_inputs]
-    ts_name: VSS HALL input (PC7)  
     
